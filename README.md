@@ -2,7 +2,34 @@
 
 Welcome to the **Data Structures** repository! This project contains clean, efficient, and well-documented implementations of fundamental data structures using JavaScript.
 
-![DSA Banner](dsa_banner_1777563755685.png)
+
+## 📊 Overview Diagram
+
+```mermaid
+graph TD
+    DSA[DSA Project] --> Search[Search Algorithms]
+    DSA --> Sort[Sorting Algorithms]
+    DSA --> DS[Data Structures]
+    
+    Search --> LS[Linear Search]
+    Search --> BS[Binary Search]
+    
+    Sort --> BSort[Bubble Sort]
+    Sort --> SSort[Selection Sort]
+    Sort --> ISort[Insertion Sort]
+    
+    DS --> Linear[Linear Structures]
+    Linear --> S[Stack - LIFO]
+    Linear --> Q[Queue - FIFO]
+    Q --> PQ[Priority Queue]
+    
+    style DSA fill:#f9f,stroke:#333,stroke-width:4px
+    style Search fill:#ffd,stroke:#333,stroke-width:2px
+    style Sort fill:#dff,stroke:#333,stroke-width:2px
+    style DS fill:#fdf,stroke:#333,stroke-width:2px
+```
+
+---
 
 ## 📂 Project Structure
 
@@ -47,31 +74,6 @@ node priorityQueue.js
 
 ---
 
-## 📊 Overview Diagram
-
-```mermaid
-graph TD
-    DSA[DSA Project] --> Search[Search Algorithms]
-    DSA --> Sort[Sorting Algorithms]
-    DSA --> DS[Data Structures]
-    
-    Search --> LS[Linear Search]
-    Search --> BS[Binary Search]
-    
-    Sort --> BSort[Bubble Sort]
-    Sort --> SSort[Selection Sort]
-    Sort --> ISort[Insertion Sort]
-    
-    DS --> Linear[Linear Structures]
-    Linear --> S[Stack - LIFO]
-    Linear --> Q[Queue - FIFO]
-    Q --> PQ[Priority Queue]
-    
-    style DSA fill:#f9f,stroke:#333,stroke-width:4px
-    style Search fill:#ffd,stroke:#333,stroke-width:2px
-    style Sort fill:#dff,stroke:#333,stroke-width:2px
-    style DS fill:#fdf,stroke:#333,stroke-width:2px
-```
 
 ---
 
