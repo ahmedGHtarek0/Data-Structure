@@ -14,16 +14,16 @@ Insertion Sort is a simple sorting algorithm that builds the final sorted array 
 ```mermaid
 graph LR
     subgraph Iteration 1
-    I1[5, |3, 8, 4, 2] -->|Insert 3| I2[3, 5, |8, 4, 2]
+    I1["5, |3, 8, 4, 2"] -->|Insert 3| I2["3, 5, |8, 4, 2"]
     end
     subgraph Iteration 2
-    I2 -->|Insert 8| I3[3, 5, 8, |4, 2]
+    I2 -->|Insert 8| I3["3, 5, 8, |4, 2"]
     end
     subgraph Iteration 3
-    I3 -->|Insert 4| I4[3, 4, 5, 8, |2]
+    I3 -->|Insert 4| I4["3, 4, 5, 8, |2"]
     end
     subgraph Iteration 4
-    I4 -->|Insert 2| I5[2, 3, 4, 5, 8]
+    I4 -->|Insert 2| I5["2, 3, 4, 5, 8"]
     end
     
     style I5 fill:#4CAF50,stroke:#333,stroke-width:2px
