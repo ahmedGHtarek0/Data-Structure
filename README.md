@@ -17,6 +17,7 @@ graph TD
     Sort --> BSort[Bubble Sort]
     Sort --> SSort[Selection Sort]
     Sort --> ISort[Insertion Sort]
+    Sort --> MSort[Merge Sort]
     
     DS --> Linear[Linear Structures]
     Linear --> S[Stack - LIFO]
@@ -45,6 +46,7 @@ This repository provides clear implementations for the following structures:
 | **Bubble Sort** | Simple comparison-based sorting. | [View Guide](BUBBLE_SORT_GUIDE.md) |
 | **Selection Sort** | Selection-based sorting algorithm. | [View Guide](SELECTION_SORT_GUIDE.md) |
 | **Insertion Sort** | Efficient for small or partially sorted lists. | [View Guide](INSERTION_SORT_GUIDE.md) |
+| **Merge Sort** | Efficient Divide & Conquer sorting. | [View Guide](MERGE_SORT_GUIDE.md) |
 
 ---
 
@@ -58,6 +60,7 @@ To explore the implementations, simply clone the repository and run the scripts 
 ### Usage
 ```bash
 # Run Sorting Algorithms
+node MergeSort.js
 node BubbleSort.js
 node SelectionSort.js
 node InsertionSort.js
