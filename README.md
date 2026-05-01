@@ -53,6 +53,7 @@ This repository provides clear implementations for the following structures:
 | **Merge Sort** | Efficient Divide & Conquer sorting. | [View Guide](MERGE_SORT_GUIDE.md) |
 | **Quick Sort** | Fast Partition-based sorting. | [View Guide](QUICK_SORT_GUIDE.md) |
 | **Heap Sort** | Binary Heap-based sorting. | [View Guide](HEAP_SORT_GUIDE.md) |
+| **Time Complexity** | Analysis of algorithm performance and Big O notation. | [View Guide](TIME_COMPLEXITY_GUIDE.md) |
 
 ---
 
@@ -82,6 +83,7 @@ node DynamixArray.js
 node stack.js
 node queue.js
 node priorityQueue.js
+node TimeComplexity.js
 ```
 
 ---
