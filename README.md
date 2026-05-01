@@ -18,8 +18,11 @@ graph TD
     Sort --> SSort[Selection Sort]
     Sort --> ISort[Insertion Sort]
     Sort --> MSort[Merge Sort]
+    Sort --> QSort[Quick Sort]
+    Sort --> HSort[Heap Sort]
     
     DS --> Linear[Linear Structures]
+    Linear --> DA[Dynamic Array]
     Linear --> S[Stack - LIFO]
     Linear --> Q[Queue - FIFO]
     Q --> PQ[Priority Queue]
@@ -41,12 +44,15 @@ This repository provides clear implementations for the following structures:
 | **Stack** | LIFO (Last-In, First-Out) implementation. | [View Guide](STACK_GUIDE.md) |
 | **Queue** | FIFO (First-In, First-Out) implementation. | [View Guide](QUEUE_GUIDE.md) |
 | **Priority Queue** | Element-based priority sorting implementation. | [View Guide](PRIORITY_QUEUE_GUIDE.md) |
+| **Dynamic Array** | Variable-size array implementation. | [View Guide](DYNAMIC_ARRAY_GUIDE.md) |
 | **Linear Search** | Sequential search through a collection. | [View Guide](LINEAR_SEARCH_GUIDE.md) |
 | **Binary Search** | Efficient search for sorted collections. | [View Guide](BINARY_SEARCH_GUIDE.md) |
 | **Bubble Sort** | Simple comparison-based sorting. | [View Guide](BUBBLE_SORT_GUIDE.md) |
 | **Selection Sort** | Selection-based sorting algorithm. | [View Guide](SELECTION_SORT_GUIDE.md) |
 | **Insertion Sort** | Efficient for small or partially sorted lists. | [View Guide](INSERTION_SORT_GUIDE.md) |
 | **Merge Sort** | Efficient Divide & Conquer sorting. | [View Guide](MERGE_SORT_GUIDE.md) |
+| **Quick Sort** | Fast Partition-based sorting. | [View Guide](QUICK_SORT_GUIDE.md) |
+| **Heap Sort** | Binary Heap-based sorting. | [View Guide](HEAP_SORT_GUIDE.md) |
 
 ---
 
@@ -60,6 +66,8 @@ To explore the implementations, simply clone the repository and run the scripts 
 ### Usage
 ```bash
 # Run Sorting Algorithms
+node QuickSort.js
+node HeapSort.js
 node MergeSort.js
 node BubbleSort.js
 node SelectionSort.js
@@ -70,6 +78,7 @@ node LinearSearch.js
 node BinarySearch.js
 
 # Run Data Structures
+node DynamixArray.js
 node stack.js
 node queue.js
 node priorityQueue.js
