@@ -15,6 +15,9 @@ This repository provides clear implementations for the following structures:
 | **Priority Queue** | Element-based priority sorting implementation. | [View Guide](PRIORITY_QUEUE_GUIDE.md) |
 | **Linear Search** | Sequential search through a collection. | [View Guide](LINEAR_SEARCH_GUIDE.md) |
 | **Binary Search** | Efficient search for sorted collections. | [View Guide](BINARY_SEARCH_GUIDE.md) |
+| **Bubble Sort** | Simple comparison-based sorting. | [View Guide](BUBBLE_SORT_GUIDE.md) |
+| **Selection Sort** | Selection-based sorting algorithm. | [View Guide](SELECTION_SORT_GUIDE.md) |
+| **Insertion Sort** | Efficient for small or partially sorted lists. | [View Guide](INSERTION_SORT_GUIDE.md) |
 
 ---
 
@@ -27,6 +30,11 @@ To explore the implementations, simply clone the repository and run the scripts 
 
 ### Usage
 ```bash
+# Run Sorting Algorithms
+node BubbleSort.js
+node SelectionSort.js
+node InsertionSort.js
+
 # Run Search Algorithms
 node LinearSearch.js
 node BinarySearch.js
@@ -44,10 +52,15 @@ node priorityQueue.js
 ```mermaid
 graph TD
     DSA[DSA Project] --> Search[Search Algorithms]
+    DSA --> Sort[Sorting Algorithms]
     DSA --> DS[Data Structures]
     
     Search --> LS[Linear Search]
     Search --> BS[Binary Search]
+    
+    Sort --> BSort[Bubble Sort]
+    Sort --> SSort[Selection Sort]
+    Sort --> ISort[Insertion Sort]
     
     DS --> Linear[Linear Structures]
     Linear --> S[Stack - LIFO]
@@ -55,11 +68,9 @@ graph TD
     Q --> PQ[Priority Queue]
     
     style DSA fill:#f9f,stroke:#333,stroke-width:4px
-    style LS fill:#ffd,stroke:#333,stroke-width:2px
-    style BS fill:#ffd,stroke:#333,stroke-width:2px
-    style S fill:#bbf,stroke:#333,stroke-width:2px
-    style Q fill:#bbf,stroke:#333,stroke-width:2px
-    style PQ fill:#dfd,stroke:#333,stroke-width:2px
+    style Search fill:#ffd,stroke:#333,stroke-width:2px
+    style Sort fill:#dff,stroke:#333,stroke-width:2px
+    style DS fill:#fdf,stroke:#333,stroke-width:2px
 ```
 
 ---
