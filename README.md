@@ -25,6 +25,7 @@ graph TD
     Linear --> DA[Dynamic Array]
     Linear --> S[Stack - LIFO]
     Linear --> Q[Queue - FIFO]
+    Linear --> HT[Hash Table]
     Q --> PQ[Priority Queue]
     
     style DSA fill:#f9f,stroke:#333,stroke-width:4px
@@ -54,6 +55,7 @@ This repository provides clear implementations for the following structures:
 | **Quick Sort** | Fast Partition-based sorting. | [View Guide](QUICK_SORT_GUIDE.md) |
 | **Heap Sort** | Binary Heap-based sorting. | [View Guide](HEAP_SORT_GUIDE.md) |
 | **Time Complexity** | Analysis of algorithm performance and Big O notation. | [View Guide](TIME_COMPLEXITY_GUIDE.md) |
+| **Hash Table** | Key-Value storage with collision resolution. | [View Guide](HASHING_GUIDE.md) |
 
 ---
 
@@ -83,6 +85,7 @@ node DynamixArray.js
 node stack.js
 node queue.js
 node priorityQueue.js
+node HashTable.js
 node TimeComplexity.js
 ```
 
