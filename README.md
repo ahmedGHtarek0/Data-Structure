@@ -23,15 +23,21 @@ graph TD
     
     DS --> Linear[Linear Structures]
     Linear --> DA[Dynamic Array]
+    Linear --> LL[Linked List]
     Linear --> S[Stack - LIFO]
     Linear --> Q[Queue - FIFO]
     Linear --> HT[Hash Table]
     Q --> PQ[Priority Queue]
     
+    DS --> NonLinear[Non-Linear Structures]
+    NonLinear --> Tree[Binary Search Tree]
+    NonLinear --> Graph[Graph - Adjacency List]
+    
     style DSA fill:#f9f,stroke:#333,stroke-width:4px
     style Search fill:#ffd,stroke:#333,stroke-width:2px
     style Sort fill:#dff,stroke:#333,stroke-width:2px
     style DS fill:#fdf,stroke:#333,stroke-width:2px
+    style NonLinear fill:#ffe0b2,stroke:#333,stroke-width:2px
 ```
 
 ---
@@ -46,6 +52,9 @@ This repository provides clear implementations for the following structures:
 | **Queue** | FIFO (First-In, First-Out) implementation. | [View Guide](QUEUE_GUIDE.md) |
 | **Priority Queue** | Element-based priority sorting implementation. | [View Guide](PRIORITY_QUEUE_GUIDE.md) |
 | **Dynamic Array** | Variable-size array implementation. | [View Guide](DYNAMIC_ARRAY_GUIDE.md) |
+| **Linked List** | Singly and Doubly Linked Lists with pointer-based nodes. | [View Guide](LINKED_LIST_GUIDE.md) |
+| **Binary Search Tree** | Hierarchical BST with DFS / BFS traversals and deletion. | [View Guide](TREE_GUIDE.md) |
+| **Graph** | Adjacency List graph with BFS, DFS, and Shortest Path. | [View Guide](GRAPH_GUIDE.md) |
 | **Linear Search** | Sequential search through a collection. | [View Guide](LINEAR_SEARCH_GUIDE.md) |
 | **Binary Search** | Efficient search for sorted collections. | [View Guide](BINARY_SEARCH_GUIDE.md) |
 | **Bubble Sort** | Simple comparison-based sorting. | [View Guide](BUBBLE_SORT_GUIDE.md) |
@@ -82,15 +91,15 @@ node BinarySearch.js
 
 # Run Data Structures
 node DynamixArray.js
+node LinkedList.js
 node stack.js
 node queue.js
 node priorityQueue.js
+node Tree.js
+node Graph.js
 node HashTable.js
 node TimeComplexity.js
 ```
-
----
-
 
 ---
 
